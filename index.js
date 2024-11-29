@@ -1,1 +1,5 @@
-"JavaScript"; function sayHello(name) { if (name == null) { alert("Hello, " + defaultName + "!"); } else { alert("Hello, " + name + "!"); } }
+function countTo1000000() {
+    for (let i = 1; i <= 1000000; i++) {
+      console.log(i);
+    }
+  }  
