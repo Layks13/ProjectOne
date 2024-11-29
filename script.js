@@ -1,5 +1,11 @@
-function countTo1000000() {
-    for (let i = 1; i <= 1000000; i++) {
-      console.log(i);
+document.addEventListener('DOMContentLoaded', function() {
+  let count = 0;
+  let interval = setInterval(function() {
+    count++;
+    console.log(count);
+    if (count >= 1000000) {
+      clearInterval(interval);
     }
-  }
+  }, 1);
+});
+
