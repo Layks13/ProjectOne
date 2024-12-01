@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let interval = setInterval(function() {
     count++;
     console.log(count);
-    if (count >= 1000000) {
+    if (count >= 10000001) {
       clearInterval(interval);
     }
   }, 1);
