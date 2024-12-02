@@ -1,11 +1,17 @@
-document.addEventListener('DOMContentLoaded', function() {
-  let count = 0;
-  let interval = setInterval(function() {
-    count++;
-    console.log(count);
-    if (count >= 10000001) {
-      clearInterval(interval);
-    }
-  }, 1);
-});
+let name = "Alexey";
+let age = 30;
+let weight = 110;
+let owerweight = weight > 110;
+let hobbies = ["game", "play", "beer", "doogs", "swimming"];
+let favoriteColor = "blue";
 
+let person = {
+    name: name,
+    age: age,
+    weight: weight,
+    owerweight: owerweight,
+    hobbies: hobbies,
+    favoriteColor: favoriteColor
+};
+
+console.log(person.hobbies);
