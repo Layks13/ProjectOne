@@ -1,5 +1,5 @@
 let name = "Alexey";
-let age = 30;
+let age = 35;
 let weight = 110;
 let owerweight = weight > 110;
 let hobbies = ["game", "play", "beer", "doogs", "swimming"];
